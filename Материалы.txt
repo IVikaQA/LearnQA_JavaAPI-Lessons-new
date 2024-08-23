@@ -1,0 +1,5 @@
+Документация по установке Allure
+https://docs.qameta.io/allure-report/#_get_started
+
+Документация по установке Docker
+https://docs.docker.com/engine/install/
