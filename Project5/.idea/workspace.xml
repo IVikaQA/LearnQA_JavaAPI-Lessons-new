@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f72e981-b5e1-49de-abb5-98dc5f3314ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/007675fd-07f9-4451-920d-0d5d3e6e6d59-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/24da9b9d-d3aa-45a2-a682-16f483994d60-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2b85d8e2-5d93-496d-971c-e158edd76855-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/353a3889-2708-4614-a3cf-66df7082cb2d-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/48fdf177-0768-4240-a5b9-685979dd7ce1-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4e4e09c4-a550-469a-8ee5-1b1e4638b289-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57c42345-7b30-4752-bf95-0f2ac3fe9055-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5fbbe7bc-6356-433f-9bb6-9df4d3438d21-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/68a40710-eb68-4e8c-9277-92fdebefa467-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7b174e1e-4884-4bbf-a826-6396280afd3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/86170ca9-8f94-402e-9025-7e340f2618d7-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/87d6d306-76a0-4ff4-87bf-f6d29755a85d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8bc68aab-7518-4c35-bc6e-b9a38605427d-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/977d033a-60c2-4228-a272-48dd4b7a0f78-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98347b4d-73a7-4d37-9a75-5c00da350178-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98a5cc45-10a2-466f-8c39-dc8142b411dc-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a1cc3881-a1d6-4b4f-b5dc-01bf18a7819b-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/af667147-9a3a-4b4e-81e2-28dd6e74bc1c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c67926af-dcf8-4ee4-bca4-e65d37c061ec-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e010697d-8505-483b-8ec9-67792b1dd94f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e47c5369-203a-49da-a339-42174f271038-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e4ef9b88-21ee-4c50-a303-35300fb01f8d-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e8458e17-4f4d-43bf-acc5-e0ca37eafcb9-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f0d5f492-4483-49d5-9e15-73ed6c449f51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fb23a9c1-e794-483d-b5c0-825a525de044-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fda3a4ad-415a-4256-8bf1-bb8181527c8e-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fefb3afd-fda6-4bb2-a115-2083c8afc879-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ApiCoreRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/Assertions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/BaseTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/DataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserAuthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserEditTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UserRegisterTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2l4PpPKQlnyMXQ3lee03Gn40ANR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserAuthTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="UserAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserAuthTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f72e981-b5e1-49de-abb5-98dc5f3314ae" name="Changes" comment="" />
+      <created>1718729012789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718729012789</updated>
+    </task>
+    <servers />
+  </component>
+</project>

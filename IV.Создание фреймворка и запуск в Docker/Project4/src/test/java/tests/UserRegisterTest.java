@@ -1,0 +1,60 @@
+package tests;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import lib.Assertions;
+import lib.BaseTestCase;
+import lib.DataGenerator;
+import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class UserRegisterTest extends BaseTestCase {
+
+    @Test
+    public void testCreateUserWithExistingEmail(){
+        String email = "vinkotov@example.com";
+
+        //Заполняем данными
+        Map<String,String> userData = new HashMap<>();
+        userData.put("email",email);
+        userData = DataGenerator.getRegistrationData(userData);
+
+        //Создаем пользователя
+        Response responseCreateAuth = RestAssured
+                .given()
+                .body(userData)
+                .post("https://playground.learnqa.ru/api/user/")
+                .andReturn();
+
+        //Смотрим статус код ответа сервера
+        //System.out.println(responseCreateAuth.statusCode());
+        Assertions.assertResponseCodeEquals(responseCreateAuth,400);
+        //Смотрим ответ сервера
+        //System.out.println(responseCreateAuth.asString());
+        Assertions.assertResponseTextEquals(responseCreateAuth, "Users with email '" + email + "' already exists");
+    }
+
+    @Test
+    public void testCreateUserSuccessfully(){
+        String email = DataGenerator.getRandomEmail();
+
+        //Заполняем данными
+        Map<String,String> userData = DataGenerator.getRegistrationData();
+
+        //Создаем пользователя
+        Response responseCreateAuth = RestAssured
+                .given()
+                .body(userData)
+                .post("https://playground.learnqa.ru/api/user/")
+                .andReturn();
+
+        //Смотрим статус код ответа сервера
+        //System.out.println(responseCreateAuth.statusCode());
+        Assertions.assertResponseCodeEquals(responseCreateAuth,200);
+        //System.out.println(responseCreateAuth.asString());
+        //Проверяем наличие поля в JSON ответа
+        Assertions.assertJsonHasField(responseCreateAuth,"id");
+    }
+}
